@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title_company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        tools:text="COMPANY NAME" />
+
+    <TextView
+        android:id="@+id/address_detail"
+        android:layout_width="581dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_detail"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        tools:text="Address" />
+
+    <TextView
+        android:id="@+id/latitude_detail"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title_company_name"
+        android:layout_below="@+id/title_company_name"
+        android:textSize="24sp"
+        tools:text="latitude" />
+
+    <TextView
+        android:id="@+id/longitude_detail"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_company_name"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/latitude_detail"
+        android:textSize="24sp"
+        tools:text="longitude" />
+
+    <TextView
+        android:id="@+id/name_detail"
+        android:layout_width="581dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitude_detail"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        tools:text="name" />
+
+    <TextView
+        android:id="@+id/phone_detail"
+        android:layout_width="581dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_detail"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        tools:text="phone" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="85dp"
+        android:text="Accept the terms and conditions."
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_hire"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
+        android:background="#636011"
+        android:text="HIRE"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible" />
+
+
+
+</RelativeLayout>

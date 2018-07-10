@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="88dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/category_image"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            tools:src="@drawable/aircondicon"
+            />
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="18dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Sub Category Name" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+</LinearLayout>
+
+
+
+
